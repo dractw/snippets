@@ -18,9 +18,9 @@ class Foo {
   }
 }
 
+// module 2
 const foo = new Foo('Bob')
 
-// module 2
 bus.on('event', foo.printName)
 
 foo.createEvent()
