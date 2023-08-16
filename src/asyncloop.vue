@@ -6,10 +6,7 @@
 
 
 <script>
-
-// some exported module
 const loopSize = 100
-
 const awaitFunction = (index) => new Promise((resolve) => resolve(index))
 
 export default {
